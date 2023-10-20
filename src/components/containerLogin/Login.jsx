@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 function Login(){
     return(
         <div>
@@ -18,7 +20,7 @@ function Login(){
                 </div>
                 <div className="signUp">
                     <button>
-                        Cadastrar
+                        <Link to={'/cadastro'}>cadastro</Link>
                     </button>
                 </div>
                 </div>
