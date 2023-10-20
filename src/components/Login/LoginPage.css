@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body{
+    margin: 0 auto;
+    background-color: #D10000;
+    font-family: roboto;
+}
+.Login{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container_login{
+    background-color: #dfdfdf;
+    width: 40rem;
+    height: 40rem;
+    border-radius: 60px;
+}
+.container_img{
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 40vh;
+}
+.container_img img{
+    height: 45rem;
+    padding-top: 100px;
+}
+
+.infos_login{
+    padding-top: 15%;
+    justify-content: center;
+}
+.infos_login input{
+    width: 90%;
+    text-align: initial;
+    border: none;
+    border-bottom: 3px solid #D10000;
+    background-color: #dfdfdf;
+}
+.infos_login text{
+    height: 550px;
+}
+.infos_login input:focus{
+    box-shadow: none;
+    outline: none;
+}
+.infos_login h1{
+    color: #D10000;
+}
+.inputD{
+    padding-left: 5%;
+}
+.infos_login h1{
+    padding-left: 5%;
+}
+
+.button_submit{
+    padding-top: 15%;
+    justify-content: center;
+    display: flex;
+}
+.SignIn{
+    padding: 40px;
+    border: none;
+    border-radius: 9px;
+    width: 500px;
+    text-align: center;
+    background-color: #D10000;
+    color: #dfdfdf;
+    font-size: 20px;
+    cursor: pointer;
+    transition: opacity 0.3s;
+}
+.SignIn:hover{
+    opacity: 0.6;
+}
+.signUp{
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+}
+.signUp:hover{
+    opacity: 0.6;
+}
+.signUp button{
+    border: none;
+    background-color: #dfdfdf;
+    color: #D10000;
+    font-size: 20px;
+}
