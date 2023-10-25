@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import React, { useState } from "react"; // Importe o useState
-import styles from '../Login/LoginPage.module.css';
-import Verified from "../Login/imgs/verificar.png";
+import React, { useState, useEffect } from "react"; // Importe o useState
+import styles from '../../pages/Login/LoginPage.module.css';
+import Verified from "../../pages/Login/imgs/verificar.png";
 
 function Login() {
   const [showPassword, setShowPassword] = useState(false);
@@ -28,6 +28,13 @@ function Login() {
       setButtonText('Ocultar Senha');
     }
   }
+
+  useEffect(() => {
+    document.body.style.backgroundColor = '#D10000';
+    return () => {
+      document.body.style.backgroundColor = '';
+    };
+  }, []);
 
   return (
     <div>

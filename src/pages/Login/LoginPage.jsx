@@ -1,7 +1,7 @@
 import styles from'./LoginPage.module.css'
 import LoginImg from "./imgs/login_img.png"
 import Balaodefala from "./imgs/balao-de-fala.png"
-import Login from '../containerLogin/Login';
+import Login from '../../components/containerLogin/Login';
 function LoginPage() {
     return (
         
@@ -12,10 +12,8 @@ function LoginPage() {
                 <h2>Bem vindo de <br />volta!</h2>
             </div>
             <img src={ LoginImg } alt="" />
-         </div>
-
-
-        <Login />
+        </div>
+         <Login />
     </div> 
     );
   }
