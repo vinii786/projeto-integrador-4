@@ -43,7 +43,7 @@ function Login() {
           <h1>Email</h1>
           <div className={styles.inputD} id="inputD">
             <input type="text" id='texto' onChange={verified} />
-            <img src={Verified} id="minhaimg" style={{ display: "none" }} />
+            <img src={Verified} id="minhaimg" style={{ display: "none", width:25, position: "absolute" }} />
           </div>
           <h1>Senha</h1>
           <div className={styles.inputD}>

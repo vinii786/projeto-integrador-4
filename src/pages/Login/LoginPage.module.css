@@ -16,8 +16,8 @@ h2{
 
 .container_login{
     background-color: #dfdfdf;
-    width: 40rem;
-    height: 40rem;
+    height: max-content;
+    width: max-content;
     border-radius: 60px;
 }
 .container_img{
@@ -26,11 +26,10 @@ h2{
 }
 
 .infos_login{
-    padding-top: 15%;
-    justify-content: center;
+    padding: 15%;
+    margin: 50px;
 }
 .infos_login input{
-    width: 90%;
     text-align: initial;
     border: none;
     border-bottom: 3px solid #D10000;
@@ -45,9 +44,6 @@ h2{
 }
 .infos_login h1{
     color: #D10000;
-}
-.inputD{
-    padding-left: 5%;
 }
 .infos_login h1{
     padding-left: 5%;
@@ -89,12 +85,11 @@ h2{
 }
 .imputD{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
 }
 .inputD input{
-    height: 30px;
+    width: 95%;
     font-size: 19px;
-    padding: 5px;
 }
 #inputD img{
     display: none;

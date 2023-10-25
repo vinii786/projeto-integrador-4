@@ -93,7 +93,7 @@ function ContainerCadastro() {
           </div>
           <div className={styles.signUp}>
             <button>
-              <Link to={'/cadastro'}>cadastro</Link>
+              <Link to={'/'}>Já tenho login</Link>
             </button>
           </div>
         </div>
