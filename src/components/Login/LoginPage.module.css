@@ -106,3 +106,12 @@ h2{
     position: absolute;
     padding-left: 10rem;
 }
+
+.btnPassword{
+    border: none;
+    padding: 0;
+    background-color: #dfdfdf;
+}
+.btnPassword:hover{
+    cursor: pointer;
+}
