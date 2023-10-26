@@ -10,7 +10,7 @@ h2{
 .Login{
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
     height: 100vh;
 }
 
@@ -20,10 +20,9 @@ h2{
     width: max-content;
     border-radius: 60px;
 }
-.container_img{
-    padding-top: 10px;
-    display: flex;
-}
+@media screen and (min-width: 320px) and (max-width: 568px){.container_img{
+    display: none;
+}}
 
 .infos_login{
     padding: 15%;
