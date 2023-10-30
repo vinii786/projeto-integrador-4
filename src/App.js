@@ -4,6 +4,7 @@ import App from "./App";
 import Home from "./pages/home/Home";
 import LoginPage from "./pages/Login/LoginPage";
 import Cadastro from "./pages/cadastro/cadastro";
+import CadastroAnimais from "./pages/cadastroAnimais/CadastroAnimais";
 
 export default function app() {
   return (
@@ -13,6 +14,7 @@ export default function app() {
           <Route path="/" element={<LoginPage />} />
           <Route path="/home" element={<Home />} />
           <Route path="/cadastro" element={<Cadastro />} />
+          <Route path="/cadastroAnimais" element={<CadastroAnimais />} />
        </Route>
       </Routes>
     </BrowserRouter>
