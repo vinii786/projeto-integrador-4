@@ -4,9 +4,6 @@ body{
     margin: 0;
     font-family: roboto;
 }
-h2{
-    color: white;
-}
 .Login{
     display: flex;
     align-items: center;
@@ -20,6 +17,9 @@ h2{
     width: max-content;
     border-radius: 60px;
 }
+@media screen and (min-width: 320px) and (max-width: 568px){.container_login{
+    font-size: 5px;
+}}
 @media screen and (min-width: 320px) and (max-width: 568px){.container_img{
     display: none;
 }}
