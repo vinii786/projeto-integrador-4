@@ -17,8 +17,9 @@ body{
     width: max-content;
     border-radius: 60px;
 }
-@media screen and (min-width: 320px) and (max-width: 568px){.container_login{
-    font-size: 5px;
+@media screen and (min-width: 320px) and (max-width: 568px){.container_login .infos_login{
+    font-size: 15px;
+    margin: 0;
 }}
 @media screen and (min-width: 320px) and (max-width: 568px){.container_img{
     display: none;

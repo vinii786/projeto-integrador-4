@@ -2,6 +2,7 @@ import "../home/Home.module.css"
 import auau from "./imgs/cao-home.png"
 import Footer from "../../components/footer/Footer"
 import styled from "../home/Home.module.css";
+import LazyLoad from 'react-lazyload';
 
 function Home() {
     return (
@@ -33,7 +34,9 @@ function Home() {
           </h3>
         </div>
 
-
+        <div className={styled.cachorro}>
+          <h1>Chachorro</h1>
+        </div>
       </div>
     );
   }

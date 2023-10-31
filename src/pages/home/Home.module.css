@@ -22,11 +22,20 @@
 .img img{
     width: 400px;
 }
+@media screen and (min-width: 768px) and (max-width: 1024px){.image{
+    display: none;
+}}
 
 .doador{
+    margin: 8vh;
     text-align: center;
     color: #b80000;
 }
 .doador h3{
     color: black;
+}
+
+.cachorro h1{
+    text-align: center;
+    color: #b80000;
 }
