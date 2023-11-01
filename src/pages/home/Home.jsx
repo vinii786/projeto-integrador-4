@@ -1,8 +1,8 @@
 import "../home/Home.module.css"
+import pata from "./imgs/pataIcon.png"
 import auau from "./imgs/cao-home.png"
 import Footer from "../../components/footer/Footer"
 import styled from "../home/Home.module.css";
-import LazyLoad from 'react-lazyload';
 
 function Home() {
     return (
@@ -34,10 +34,55 @@ function Home() {
           </h3>
         </div>
 
-        <div className={styled.cachorro}>
-          <h1>Chachorro</h1>
+        <div className={styled.animal}>
+          <h1>Cachorro</h1>
+          <div className={styled.tabble}>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+            <div className={styled.colum}>
+              <img
+                src={pata}
+                alt=""
+              />
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat voluptate maxime expedita vitae doloribus veniam vero officiis saepe provident reprehenderit, aperiam ratione consequatur non quam inventore facere minus sequi obcaecati!</p>
+            </div>
+          </div>
         </div>
       </div>
+
     );
   }
   
