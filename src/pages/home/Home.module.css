@@ -25,33 +25,7 @@
 @media screen and (min-width: 768px) and (max-width: 1024px){.image{
     display: none;
 }}
-.animal{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.animal h1{
-    color: #b80000;
-    text-align: left;
-}
 .doador{
     margin: 8vh;
     text-align: center;
-    color: #b80000;
-}
-.doador h3{
-    color: black;
-}
-
-.colum{
-    display: flex;
-}
-
-.tabble{
-    padding-left: 9vh;
-}
-.tabble img{
-    height: 30px;
-    padding-right: 10px;
-    padding-top: 9px;
 }
