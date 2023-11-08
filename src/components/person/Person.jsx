@@ -1,8 +1,6 @@
 import styled from "../person/Person.module.css";
 import Person1 from "./imgs/undraw_Female_avatar_efig.png"
 import Person2 from "./imgs/undraw_Male_avatar_g98d.png"
-import Person3 from "./imgs/undraw_Pic_profile_re_7g2h.png"
-import Person4 from "./imgs/undraw_Profile_pic_re_iwgo.png"
 function Person(){
 return(
     <div className={styled.person}>
