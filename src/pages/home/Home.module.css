@@ -1,0 +1,31 @@
+.sobre{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+
+.text{
+    text-align: start;
+    max-width: 1500px;
+}
+.text p{
+    font-size: 20px;
+}
+.text h1{
+    text-align: center;
+    color: #b80000;
+}
+
+.img img{
+    width: 400px;
+}
+@media screen and (min-width: 768px) and (max-width: 1024px){.image{
+    display: none;
+}}
+.doador{
+    padding-top: 40px;
+    text-align: center;
+}

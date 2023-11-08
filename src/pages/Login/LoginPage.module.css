@@ -4,8 +4,12 @@ body{
     margin: 0;
     font-family: roboto;
 }
-h2{
-    color: white;
+img{
+    max-width: 95vh;
+}
+.link{
+    text-decoration: none;
+    color: #D10000;
 }
 .Login{
     display: flex;
@@ -20,13 +24,17 @@ h2{
     width: max-content;
     border-radius: 60px;
 }
+@media screen and (min-width: 320px) and (max-width: 568px){.container_login .infos_login{
+    font-size: 15px;
+    margin: 0;
+}}
 @media screen and (min-width: 320px) and (max-width: 568px){.container_img{
     display: none;
 }}
 
 .infos_login{
     padding: 15%;
-    margin: 50px;
+   
 }
 .infos_login input{
     text-align: initial;

@@ -1,0 +1,32 @@
+.footer{
+    display: flex;
+    background-color: #D10000;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    display: flex;
+}
+.logo h1{
+    color: white;
+}
+.logo img{
+    height: 80px;
+}
+
+.log{
+    display: flex;
+    gap: 40px;
+    padding-right: 10vh;
+    
+}
+.log button{
+    border: none;
+    background-color: #D10000;
+    width: max-content;
+    color: white;
+}
+.log button:hover{
+    cursor: pointer;
+}

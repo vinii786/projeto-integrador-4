@@ -1,0 +1,18 @@
+.animal h1{
+    margin-left: 5%;
+}
+.doador h3{
+    color: black;
+}
+.colum{
+    display: flex;
+}
+
+.tabble{
+    padding-left: 9vh;
+}
+.tabble img{
+    height: 30px;
+    padding-right: 10px;
+    padding-top: 9px;
+}

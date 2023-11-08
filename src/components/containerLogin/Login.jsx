@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react"; // Importe o useState
+import React, { useState, useEffect } from "react";
 import styles from '../../pages/Login/LoginPage.module.css';
 import Verified from "../../pages/Login/imgs/verificar.png";
 
@@ -36,14 +36,27 @@ function Login() {
     };
   }, []);
 
+  const linkStyle = {
+    color: 'blue',
+    textDecoration: 'none',
+    marginRight: '10px',
+  };
+
   return (
-    <div>
       <div className={styles.container_login}>
         <div className={styles.infos_login}>
           <h1>Email</h1>
           <div className={styles.inputD} id="inputD">
-            <input type="text" id='texto' onChange={verified} />
-            <img src={Verified} id="minhaimg" style={{ display: "none", width:25, position: "absolute" }} />
+            <input 
+            type="text"
+            id='texto'
+            onChange={verified}
+            />
+            <img
+            src={Verified}
+            id="minhaimg"
+            style={{ display: "none", width:25, position: "absolute" }} 
+            />
           </div>
           <h1>Senha</h1>
           <div className={styles.inputD}>
@@ -66,12 +79,22 @@ function Login() {
           </div>
           <div className={styles.signUp}>
             <button>
-              <Link to={'/cadastro'}>cadastro</Link>
+              <Link to={'/cadastro'} 
+              className={styles.link}>
+              cadastro
+              </Link>
+            </button>
+          </div>
+          <div className={styles.signUp}>
+            <button>
+              <Link
+              to={'/home'}
+              className={styles.link}
+              >continuar sem cadatro</Link>
             </button>
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

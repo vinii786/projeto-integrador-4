@@ -11,7 +11,7 @@ function LoginPage() {
                 <img src={Balaodefala} />
                 <h2>Bem vindo de <br />volta!</h2>
             </div>
-            <img src={ LoginImg } alt="" />
+            <img src={ LoginImg } alt=""/>
         </div>
          <Login />
     </div> 
