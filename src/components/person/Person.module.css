@@ -1,0 +1,11 @@
+.person h1{
+    text-align: center;
+}
+.imgs{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.imgs img{
+    width: 500px;
+}

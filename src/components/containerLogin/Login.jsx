@@ -37,13 +37,20 @@ function Login() {
   }, []);
 
   return (
-    <div>
       <div className={styles.container_login}>
         <div className={styles.infos_login}>
           <h1>Email</h1>
           <div className={styles.inputD} id="inputD">
-            <input type="text" id='texto' onChange={verified} />
-            <img src={Verified} id="minhaimg" style={{ display: "none", width:25, position: "absolute" }} />
+            <input 
+            type="text"
+            id='texto'
+            onChange={verified}
+            />
+            <img
+            src={Verified}
+            id="minhaimg"
+            style={{ display: "none", width:25, position: "absolute" }} 
+            />
           </div>
           <h1>Senha</h1>
           <div className={styles.inputD}>
@@ -71,7 +78,6 @@ function Login() {
           </div>
         </div>
       </div>
-    </div>
   );
 }
 

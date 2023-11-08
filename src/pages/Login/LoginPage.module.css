@@ -4,6 +4,9 @@ body{
     margin: 0;
     font-family: roboto;
 }
+img{
+    max-width: 95vh;
+}
 .Login{
     display: flex;
     align-items: center;
@@ -27,7 +30,7 @@ body{
 
 .infos_login{
     padding: 15%;
-    margin: 50px;
+   
 }
 .infos_login input{
     text-align: initial;

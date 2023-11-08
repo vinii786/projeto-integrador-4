@@ -2,6 +2,7 @@ import "../home/Home.module.css"
 import auau from "./imgs/cao-home.png"
 import Footer from "../../components/footer/Footer"
 import Tabble from "../../components/tabbleAnimal/tabble";
+import Person from "../../components/person/Person";
 import styled from "../home/Home.module.css";
 
 function Home() {
@@ -46,6 +47,10 @@ function Home() {
           </h3>
         </div>
         <Tabble />
+        <Tabble
+          tittle = "Gato"
+        />
+        <Person />
       </div>
 
     );
