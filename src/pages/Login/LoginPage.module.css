@@ -7,6 +7,10 @@ body{
 img{
     max-width: 95vh;
 }
+.link{
+    text-decoration: none;
+    color: #D10000;
+}
 .Login{
     display: flex;
     align-items: center;

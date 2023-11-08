@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import React, { useState, useEffect } from "react"; // Importe o useState
+import React, { useState, useEffect } from "react";
 import styles from '../../pages/Login/LoginPage.module.css';
 import Verified from "../../pages/Login/imgs/verificar.png";
 
@@ -35,6 +35,12 @@ function Login() {
       document.body.style.backgroundColor = '';
     };
   }, []);
+
+  const linkStyle = {
+    color: 'blue',
+    textDecoration: 'none',
+    marginRight: '10px',
+  };
 
   return (
       <div className={styles.container_login}>
@@ -73,7 +79,18 @@ function Login() {
           </div>
           <div className={styles.signUp}>
             <button>
-              <Link to={'/cadastro'}>cadastro</Link>
+              <Link to={'/cadastro'} 
+              className={styles.link}>
+              cadastro
+              </Link>
+            </button>
+          </div>
+          <div className={styles.signUp}>
+            <button>
+              <Link
+              to={'/home'}
+              className={styles.link}
+              >continuar sem cadatro</Link>
             </button>
           </div>
         </div>
